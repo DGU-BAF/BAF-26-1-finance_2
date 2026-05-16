@@ -1,0 +1,28 @@
+{
+  "target": "oil_diff_target",
+  "split_date": "2022-05-06",
+  "test_size": 0.2,
+  "n_features": 19,
+  "final_aic_features": [
+    "OilPrice",
+    "RealInterestRate",
+    "VIX",
+    "IndustryProduction",
+    "CPE",
+    "OilInventories",
+    "OPECProduction",
+    "oil_diff_lag1",
+    "oil_volatility_20",
+    "MA_ratio",
+    "MA_5_gt_MA_20",
+    "is_friday",
+    "gfc_2008_shock",
+    "opec_2014_shock",
+    "opec_2014_regime",
+    "covid_2020_shock",
+    "war_2022_shock",
+    "war_2022_window",
+    "cond_opec_cut"
+  ],
+  "data_file": "dataset4_derived_full_with_dummies.csv"
+}

@@ -1,0 +1,21 @@
+{
+  "random_state": 42,
+  "n_trials": 50,
+  "n_splits_cv": 5,
+  "early_stopping_rounds": 50,
+  "best_cv_rmse": 1.774734490403064,
+  "best_params": {
+    "n_estimators": 232,
+    "learning_rate": 0.03487776753903612,
+    "num_leaves": 127,
+    "max_depth": 11,
+    "min_child_samples": 5,
+    "reg_alpha": 0.8246362282489827,
+    "reg_lambda": 0.798283289712431,
+    "subsample": 0.8238463572387135,
+    "colsample_bytree": 0.8813769806450324
+  },
+  "split_date": "2022-05-06",
+  "target": "oil_diff_target",
+  "n_features": 19
+}
