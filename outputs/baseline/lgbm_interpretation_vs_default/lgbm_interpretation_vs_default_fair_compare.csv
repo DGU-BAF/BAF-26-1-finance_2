@@ -1,0 +1,3 @@
+model,description,n_features,RMSE,MAE,R2,Directional_Accuracy,RMSE_improve_vs_default,MAE_improve_vs_default,R2_gap_vs_default,DirAcc_gap_vs_default
+LGBM_default,"기본 LGBM, 튜닝 없음",19,1.8745550267895457,1.3818675589979275,-0.06571927268084754,0.50625,0.0,0.0,0.0,0.0
+LGBM_interpretation_style,Modeling_LGBM_interpretation의 파라미터를 train/test로 재평가,19,1.9149089311290381,1.3999810936513992,-0.11209703320236519,0.5041666666666667,-0.02152719112684814,-0.01310801063063304,-0.04637776052151765,-0.002083333333333326
