@@ -3,19 +3,19 @@
   "n_trials": 50,
   "n_splits_cv": 5,
   "early_stopping_rounds": 50,
-  "best_cv_rmse": 1.7747248967199727,
+  "best_cv_rmse": 1.7901416721458268,
   "best_params": {
-    "n_estimators": 232,
-    "learning_rate": 0.03487776753903612,
-    "num_leaves": 127,
-    "max_depth": 11,
-    "min_child_samples": 5,
-    "reg_alpha": 0.8246362282489829,
-    "reg_lambda": 0.7982832897124309,
-    "subsample": 0.8238463572387134,
-    "colsample_bytree": 0.8813769806450324
+    "n_estimators": 681,
+    "learning_rate": 0.08397040070445162,
+    "num_leaves": 88,
+    "max_depth": 7,
+    "min_child_samples": 18,
+    "reg_alpha": 0.026650369725738587,
+    "reg_lambda": 0.6450870985770966,
+    "subsample": 0.9724575040542311,
+    "colsample_bytree": 0.8757197343403282
   },
-  "split_date": "2022-05-06",
+  "split_date": "2022-07-20",
   "target": "oil_diff_target",
   "n_features": 19
 }
