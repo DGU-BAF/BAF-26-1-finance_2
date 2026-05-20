@@ -1,0 +1,9 @@
+model,n_vars,RMSE,MAE,R2,DirAcc
+naive_zero,0,1.70028,1.25826,-5e-05,
+naive_lag1,1,2.32838,1.77543,-0.87537,0.5022
+OLS baseline,19,1.7583,1.29644,-0.06946,0.4956
+OLS +sentiment,23,1.75888,1.29661,-0.07016,0.49011
+LGBM default baseline,19,1.85822,1.35035,-0.19447,0.52747
+LGBM default +sentiment,23,1.83623,1.35278,-0.16637,0.48571
+LGBM tuned baseline,19,2.04371,1.47085,-0.44484,0.50769
+LGBM tuned +sentiment,23,1.97981,1.38375,-0.3559,0.50769

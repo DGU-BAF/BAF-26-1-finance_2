@@ -1,0 +1,63 @@
+{
+  "target": "oil_diff_target",
+  "split_date": "2022-07-20",
+  "base_features": [
+    "OilPrice",
+    "RealInterestRate",
+    "VIX",
+    "IndustryProduction",
+    "CPE",
+    "OilInventories",
+    "OPECProduction",
+    "TreasuryYield",
+    "oil_diff_lag1",
+    "MA_ratio",
+    "MA_5_gt_MA_20",
+    "vix_high",
+    "is_friday",
+    "gfc_2008_shock",
+    "gfc_2008_regime",
+    "opec_2014_window",
+    "covid_2020_window",
+    "war_2022_window",
+    "cond_opec_cut"
+  ],
+  "sentiment_features": [
+    "sent_supply_7d",
+    "sent_demand_7d",
+    "sent_geopolitical_7d",
+    "sent_financial_7d"
+  ],
+  "all_features": [
+    "OilPrice",
+    "RealInterestRate",
+    "VIX",
+    "IndustryProduction",
+    "CPE",
+    "OilInventories",
+    "OPECProduction",
+    "TreasuryYield",
+    "oil_diff_lag1",
+    "MA_ratio",
+    "MA_5_gt_MA_20",
+    "vix_high",
+    "is_friday",
+    "gfc_2008_shock",
+    "gfc_2008_regime",
+    "opec_2014_window",
+    "covid_2020_window",
+    "war_2022_window",
+    "cond_opec_cut",
+    "sent_supply_7d",
+    "sent_demand_7d",
+    "sent_geopolitical_7d",
+    "sent_financial_7d"
+  ],
+  "n_base": 19,
+  "n_sentiment": 4,
+  "data_files": {
+    "base": "dataset4_derived_full_with_dummies.csv",
+    "sentiment": "sentiment_avg_7d_final.csv"
+  },
+  "note": "base는 모델링1 final_aic_features 고정, 감성 4개 보조피처 추가"
+}
